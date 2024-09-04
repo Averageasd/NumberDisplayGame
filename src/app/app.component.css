@@ -1,0 +1,9 @@
+.container {
+    width: max(75%, 25rem);
+}
+
+.num-container-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}

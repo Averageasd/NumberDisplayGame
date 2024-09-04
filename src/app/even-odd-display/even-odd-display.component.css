@@ -1,0 +1,12 @@
+.num-display {
+    padding: 0.25rem;
+}
+.even-num-display {
+    background-color: blue;
+    color: white;
+}
+
+.odd-num-display {
+    background-color: indianred;
+    color: white;   
+}

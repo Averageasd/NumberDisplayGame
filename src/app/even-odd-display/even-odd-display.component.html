@@ -1,0 +1,9 @@
+<div *ngIf="isEvenNumber(); else oddNumContainer" class="num-display even-num-display">
+    <p>Even - {{num}}</p>
+</div>
+
+<ng-template #oddNumContainer>
+    <div class="num-display odd-num-display">
+        <p>Odd - {{num}}</p>
+    </div>
+</ng-template>

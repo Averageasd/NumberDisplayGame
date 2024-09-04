@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GameControlComponent } from './game-control/game-control.component';
+import { EvenOddDisplayComponent } from './even-odd-display/even-odd-display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameControlComponent,
+    EvenOddDisplayComponent
   ],
   imports: [
     BrowserModule,
